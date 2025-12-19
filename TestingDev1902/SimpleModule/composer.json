@@ -1,0 +1,21 @@
+{
+  "name": "testingdev1902/module-simplemodule",
+  "description": "TestingDev1902 Simple Magento 2 module",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TestingDev1902\\SimpleModule\\": ""
+    }
+  }
+}
