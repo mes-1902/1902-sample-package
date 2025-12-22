@@ -8,7 +8,7 @@
   ],
   "require": {
     "php": ">=7.4",
-    "magento/framework": "*"
+    "magento/framework": "^100.0 || ^101.0 || ^102.0 || ^103.0"
   },
   "autoload": {
     "files": [
@@ -17,5 +17,13 @@
     "psr-4": {
       "TestingDev1902\\SimpleModule\\": ""
     }
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "TestingDev1902/SimpleModule"
+      ]
+    ]
   }
 }
